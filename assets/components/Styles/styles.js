@@ -1,0 +1,85 @@
+import { StyleSheet } from "react-native";
+
+
+
+const styles = StyleSheet.create({
+    container: {
+        flex:1,
+        padding:30,
+        justifyContent: 'center',
+        alignItems:'stretch',
+        borderWidth:3,
+        backgroundColor:'aqua'
+      },
+      emailnputContainer:{
+          height:50,
+          borderWidth:1,
+          //width:'80%',
+          padding:10,
+          marginBottom:20,
+          justifyContent:'center',
+          alignItems:'center',
+          borderRadius:25,
+          backgroundColor: 'gray',
+          textAlign:'center',
+      },
+      passwordInputContainer:{
+          height:50,
+          borderWidth:1,
+          //width:'80%',
+          padding:10,
+          marginBottom:20,
+          justifyContent:'center',
+          alignItems:'center',
+          borderRadius:25,
+          backgroundColor: 'gray',
+          textAlign:'center',
+      },
+      mainContainer: {
+          flex:1,
+          backgroundColor: 'cadetblue',
+          justifyContent: 'center',  
+        },
+        ConfirmButton:{
+          height:50,
+          borderWidth:1,
+          //width:'80%',
+          padding:10,
+          marginBottom:20,
+          justifyContent:'center',
+          alignItems:'center',
+          borderRadius:25,
+          backgroundColor: 'gray',
+          textAlign:'center',
+        },
+        LoginButton:{
+          justifyContent:'center',
+          alignItems:'center',
+          height:50,
+          borderWidth:1,
+          //width:'80%',
+          padding:10,
+          marginBottom:20,
+
+
+        },
+        signUpButton:{
+          justifyContent:'center',
+          alignItems:'center',
+          height:50,
+          borderWidth:1,
+          //width:'80%',
+          padding:10,
+          marginBottom:20,
+
+        },
+        container2:{
+          flex:1,
+          padding:30,
+          justifyContent: 'center',
+          alignItems:'stretch',
+          borderWidth:3,
+          backgroundColor:'cadetblue',
+        },
+  })
+  export default styles; 
