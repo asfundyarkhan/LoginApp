@@ -38,7 +38,14 @@ const styles = StyleSheet.create({
       mainContainer: {
           flex:1,
           backgroundColor: 'cadetblue',
-          justifyContent: 'center',  
+          justifyContent: 'center',
+          padding:20,  
+        },
+        mainContainer1: {
+          flex:1,
+          backgroundColor: 'cadetblue',
+          justifyContent: 'center',
+          alignItems:'center',
         },
         ConfirmButton:{
           height:50,
@@ -60,6 +67,8 @@ const styles = StyleSheet.create({
           //width:'80%',
           padding:10,
           marginBottom:20,
+          backgroundColor:'aqua',
+
 
 
         },
@@ -71,6 +80,7 @@ const styles = StyleSheet.create({
           //width:'80%',
           padding:10,
           marginBottom:20,
+          backgroundColor:'aqua',
 
         },
         container2:{
@@ -80,6 +90,9 @@ const styles = StyleSheet.create({
           alignItems:'stretch',
           borderWidth:3,
           backgroundColor:'cadetblue',
+        },
+        Button1:{
+          marginTop: 20,
         },
   })
   export default styles; 

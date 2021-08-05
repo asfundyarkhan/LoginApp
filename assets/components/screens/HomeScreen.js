@@ -1,11 +1,19 @@
 import React from 'react';
-import { Text, View } from 'react-native';
-
+import { Text, View ,Button} from 'react-native';
+import styles from '../Styles/styles';
+import { sign_Out } from '../Utils/FirebaseUtil';
 
 const HomeScreen =({navigation}) => {
+    const signOut = () => {
+        sign_Out().catch((e) => {
+            console.log(e)
+            alert("Something went wrong !!!");
+        });
+    };
     return (
-        <View>
-            <Text>Hello This is Main Screen !!</Text>
+        <View style={styles.maincontainer}>
+            <Text> HOME </Text>
+            <Button onPress={() => signOut()} title= "Logout" />
         </View>        
     );
 };
